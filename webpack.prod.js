@@ -5,6 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const imageminMozjpeg = require('imagemin-mozjpeg');
+// eslint-disable-next-line import/no-extraneous-dependencies
 const TerserPlugin = require('terser-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
