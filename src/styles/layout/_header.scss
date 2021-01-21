@@ -1,0 +1,30 @@
+header {
+  background: $light-grey;
+}
+
+.nav {
+  align-items: center;
+  border-bottom: 1px solid $grey;
+  display: flex;
+
+  .link {
+    &:hover {
+      color: darken($color-primary, 15);
+    }
+  }
+
+  .logo-link {
+    border-right: 1px solid $grey;
+    margin-right: 10px;
+    padding: 10px;
+
+    &:hover {
+      background: $pink;
+    }
+  }
+
+  .logo-img {
+    height: 25px;
+    width: 25px;
+  }
+}
