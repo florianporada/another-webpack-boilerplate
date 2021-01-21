@@ -1,1 +1,2 @@
-const what = "aadf";
+// eslint-disable-next-line no-console
+console.log('hey');
