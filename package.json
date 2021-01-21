@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack --config webpack.prod.js",
-    "start": "webpack serve --open --config webpack.dev.js"
+    "start": "webpack serve --open --config webpack.dev.js",
+    "lint-js": "eslint --ext .js --fix src/**/*.js",
+    "lint-style": "stylelint --fix 'src/**/*.{css,scss}'",
+    "prettier": "pretty-quick --staged"
   },
   "repository": {
     "type": "git",
@@ -59,5 +62,18 @@
     "webpack-dev-server": "^3.11.2",
     "webpack-merge": "^5.7.3",
     "workbox-webpack-plugin": "^6.0.2"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "yarn run lint-js"
+    ],
+    "src/**/*.{css,scss}": [
+      "yarn run lint-style"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "concurrently \"yarn run prettier\" \"lint-staged\""
+    }
   }
 }
