@@ -2,13 +2,17 @@
   "name": "another-webpack-boilerplate",
   "version": "0.0.1",
   "description": "Boilerplate for web based projects",
-  "main": "index.js",
+  "keywords": ["webpack", "scss", "boilerplate", "pwa", "web", "webpack5"],
   "scripts": {
     "build": "webpack --config webpack.prod.js",
     "start": "webpack serve --open --config webpack.dev.js",
     "lint-js": "eslint --ext .js --fix src/**/*.js",
     "lint-style": "stylelint --fix 'src/**/*.{css,scss}'",
-    "prettier": "pretty-quick --staged"
+    "prettier": "pretty-quick --staged",
+    "new": "echo 'Remove .git folder' && rm -rf .git && echo 'Install dependencies' && yarn install"
+  },
+  "engines": {
+    "node": ">=12"
   },
   "repository": {
     "type": "git",
