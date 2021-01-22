@@ -4,10 +4,10 @@
 
 ## Usage
 
-1 `git clone https://github.com/florianporada/another-webpack-boilerplate.git <project-name>`
-2 `cd <project-name>`
-3 `yarn run new`
-4 `yarn start`
+1. `git clone https://github.com/florianporada/another-webpack-boilerplate.git <project-name>`
+2. `cd <project-name>`
+3. `yarn run new`
+4. `yarn start`
 
 ## Features
 
