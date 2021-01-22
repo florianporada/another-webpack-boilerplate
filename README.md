@@ -1,6 +1,7 @@
 # Another Webpack Boilerplate
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Build](https://github.com/florianporada/another-webpack-boilerplate/workflows/Build%20And%20Deploy/badge.svg)
+| [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Usage
 
@@ -34,6 +35,9 @@ The standard behavior of the action is to create a docker image and push it to t
   DOCKER_USERNAME
   DOCKER_PASSWORD
   ```
+
+- Skip CI
+  If the commit message contains `docs:` the GitHub Action will not be triggered.
 
 ## Credits
 
