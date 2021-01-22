@@ -22,6 +22,19 @@
 
 Since this boilerplate is basically a port of [tris-webpack-boilerplate](https://github.com/tr1s/tris-webpack-boilerplate) to webpack 5 with some new features, most of the features are explained [here](https://github.com/tr1s/tris-webpack-boilerplate#features-explained).
 
+---
+
+## Deployment
+
+The standard behavior of the action is to create a docker image and push it to the docker registry.
+
+- GitHub Actions Environment Secrets
+
+  ```txt
+  DOCKER_USERNAME
+  DOCKER_PASSWORD
+  ```
+
 ## Credits
 
 - Heavily inspired by: [tris-webpack-boilerplate](https://github.com/tr1s/tris-webpack-boilerplate)
