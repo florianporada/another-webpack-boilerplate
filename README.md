@@ -36,8 +36,9 @@ The standard behavior of the action is to create a docker image and push it to t
   DOCKER_PASSWORD
   ```
 
-- Skip CI
-  If the commit message contains `docs:` the GitHub Action will not be triggered.
+- Skip CI:
+
+  If the commit message contains `skip ci` the GitHub Action will not be triggered.
 
 ## Credits
 
