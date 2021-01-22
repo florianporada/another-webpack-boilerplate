@@ -11,6 +11,17 @@
 
 ## Features
 
+- Webpack 5
+- SCSS support
+- ES6 transpiling
+- Automatic favicon generation
+- Docker ready
+  ...
+
+### Feature explanations
+
+Since this boilerplate is basically a port of [tris-webpack-boilerplate](https://github.com/tr1s/tris-webpack-boilerplate) to webpack 5 with some new features, most of the features are explained [here](https://github.com/tr1s/tris-webpack-boilerplate#features-explained).
+
 ## Credits
 
 - Heavily inspired by: [tris-webpack-boilerplate](https://github.com/tr1s/tris-webpack-boilerplate)
