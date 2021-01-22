@@ -1,7 +1,8 @@
 # Another Webpack Boilerplate
 
 ![Build](https://github.com/florianporada/another-webpack-boilerplate/workflows/Build%20And%20Deploy/badge.svg)
-| [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/florianporada/another-webpack-boilerplate/issues)
 
 ## Usage
 
