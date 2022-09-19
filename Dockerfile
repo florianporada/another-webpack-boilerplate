@@ -1,5 +1,5 @@
 # Building phase
-FROM node:12-buster as builder
+FROM node:16-buster as builder
 
 LABEL description="Another webpack boilerplate"
 
