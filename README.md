@@ -14,7 +14,7 @@
 ## Features
 
 - Webpack 5
-- SCSS support
+- Tailwind 3 support
 - ES6 transpiling
 - Automatic favicon generation
 - Docker ready

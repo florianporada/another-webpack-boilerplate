@@ -2,7 +2,7 @@ import './fonts/libre-baskerville-v5-latin-regular.woff';
 import './fonts/libre-baskerville-v5-latin-regular.woff2';
 
 import './index.html';
-import './index.scss';
+import './index.css';
 import './scripts/script';
 
 if ('serviceWorker' in navigator) {

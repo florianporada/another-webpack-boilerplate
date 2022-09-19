@@ -51,12 +51,6 @@ module.exports = merge(common, {
               },
             },
           },
-          {
-            loader: 'sass-loader',
-            options: {
-              sourceMap: true,
-            },
-          },
         ],
       },
     ],
