@@ -20,31 +20,33 @@ module.exports = {
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              esModule: false,
-              name: '[name].[ext]',
-              outputPath: 'images/',
-              publicPath: '/images/',
-            },
-          },
-        ],
+        type: 'asset/resource',
+        // use: [
+        //   {
+        //     loader: 'file-loader',
+        //     options: {
+        //       esModule: false,
+        //       name: '[name].[ext]',
+        //       outputPath: 'images/',
+        //       publicPath: '/images/',
+        //     },
+        //   },
+        // ],
       },
       {
         test: /\.(woff|woff2|ttf|otf)$/,
-        use: [
-          {
-            loader: 'file-loader',
-            options: {
-              esModule: false,
-              name: '[name].[ext]',
-              outputPath: 'fonts/',
-              publicPath: 'fonts/',
-            },
-          },
-        ],
+        type: 'asset/resource',
+        // use: [
+        //   {
+        //     loader: 'file-loader',
+        //     options: {
+        //       esModule: false,
+        //       name: '[name].[ext]',
+        //       outputPath: 'fonts/',
+        //       publicPath: 'fonts/',
+        //     },
+        //   },
+        // ],
       },
       {
         test: /\.js$/,

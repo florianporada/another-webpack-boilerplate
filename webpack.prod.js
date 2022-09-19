@@ -10,7 +10,7 @@ const TerserPlugin = require('terser-webpack-plugin');
 const FaviconsWebpackPlugin = require('favicons-webpack-plugin');
 const WorkboxPlugin = require('workbox-webpack-plugin');
 
-const common = require('./webpack.common.js');
+const common = require('./webpack.common');
 const config = require('./config');
 
 module.exports = merge(common, {
