@@ -22,7 +22,7 @@
     "test": "concurrently \"yarn run prettier\" \"lint-staged\""
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "repository": {
     "type": "git",
