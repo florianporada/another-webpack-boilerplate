@@ -11,6 +11,20 @@
 3. `yarn run new`
 4. `yarn start`
 
+### Quickstart
+
+```bash
+export PROJECT_NAME=superservice
+git clone https://github.com/florianporada/another-webpack-boilerplate.git $PROJECT_NAME
+cd $PROJECT_NAME
+rm -rf .git
+echo $PROJECT_NAME > README.md
+git init -b main
+git add .
+git commit -m "chore: add boilerplate code"
+echo "READY TO GO"
+```
+
 ## Features
 
 - Webpack 5
